@@ -3,6 +3,7 @@
 using namespace std;
 
 // The code is fine but there needs to be some advancements.
+// Array is created to mark the vertices that have been already visited
 
 int isVisited[100][100] = {0};
 void visit_island(int arr[][100], int row, int columns, int size)
