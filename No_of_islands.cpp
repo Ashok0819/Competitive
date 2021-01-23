@@ -3,7 +3,7 @@
 using namespace std;
 
 // The code is fine but there needs to be some advancements.
-
+// Declaration and initialization if the array which contains the information regarding the blocks already visited
 int isVisited[100][100] = {0};
 void visit_island(int arr[][100], int row, int columns, int size)
 {
