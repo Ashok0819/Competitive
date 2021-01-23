@@ -2,6 +2,8 @@
 #include <iostream>
 using namespace std;
 
+// The code is fine but there needs to be some advancements.
+
 int isVisited[100][100] = {0};
 void visit_island(int arr[][100], int row, int columns, int size)
 {
@@ -40,6 +42,7 @@ int calculate_islands(int arr[][100], int size)
     return count;
 }
 
+// starting of the driver function. This is the point from where the execution of the program begins
 int main()
 {
     // memset(dP, sizeof(dP), -1);
